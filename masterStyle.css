@@ -5,15 +5,51 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/*P tags */
 p.font1 {
     font-style: Apple Chancery, cursive;
 }
 
+p.fontSiz1 {
+    font-size: large;
+}
+
+p.fontSize2 {
+    font-size: medium;
+}
+
+/*Div tags*/
+div.leftColumn {
+    
+    text-align: left;
+    width: 500px;
+}
+
+div.rightColumn {
+    text-align: right;
+    width: 500px;
+}
+
 div.polaroid {
-    width: 80%;
+    border-radius: 8px;
+    width: 200px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
+}
+
+div.polaroid2 {
+    border-radius: 8px;
+    width: 480px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+div.container {
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 10px;
 }
 
 
