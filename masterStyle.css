@@ -66,3 +66,15 @@ div.container {
 
 }
 
+.dish{
+    background: url(RadarDish/dish.jpg) no-repeat;
+    background-size: 180px 320px;
+
+}
+
+.dish:hover{
+    background: url(RadarDish/Radar.gif) no-repeat;
+    background-size: 180px 320px;
+
+}
+
