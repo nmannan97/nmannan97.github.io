@@ -52,4 +52,17 @@ div.container {
     padding: 10px 10px;
 }
 
+/* class tags*/
+
+.robotLeg{
+    background: url(RoboticLeg/RobotLeg.png) no-repeat;
+    background-size: 180px 320px;
+
+}
+
+.robotLeg:hover{
+    background: url(RoboticLeg/RobotLeg.gif) no-repeat;
+    background-size: 180px 320px;
+
+}
 
