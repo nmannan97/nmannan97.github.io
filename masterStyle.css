@@ -55,6 +55,8 @@ div.container {
 /* class tags*/
 
 .robotLeg{
+    transition-duration: 0.4s;
+
     background: url(RoboticLeg/RobotLeg.png) no-repeat;
     background-size: 180px 320px;
 
@@ -67,6 +69,8 @@ div.container {
 }
 
 .dish{
+    transition-duration: 0.4s;
+
     background: url(RadarDish/dish.jpg) no-repeat;
     background-size: 180px 320px;
 
