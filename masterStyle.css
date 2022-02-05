@@ -10,13 +10,6 @@ p.font1 {
     font-style: Apple Chancery, cursive;
 }
 
-p.fontSizeLarge {
-    font-size: large;
-}
-
-p.fontSizeMed {
-    font-size: medium;
-}
 
 /*Div tags*/
 div.leftColumn {
@@ -91,3 +84,11 @@ div.container {
     padding: 5px;
 }
 
+
+.fontSizeLarge {
+    font-size: 30px;
+}
+
+.fontSizeMed {
+    font-size: 20px;
+}
