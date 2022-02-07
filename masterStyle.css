@@ -89,6 +89,7 @@ div.container {
     font-size: 30px;
     color : white;
     stroke-width: 5px;
+    text-shadow: black 0px 0px 2px; /* color offset-x offset-y blur-radius */
     
 }
 
@@ -96,6 +97,7 @@ div.container {
     font-size: 20px;
     border-color: white;
     color : white;
+    text-shadow: black 0px 0px 2px; /* color offset-x offset-y blur-radius */
 }
 
 .James-Naeem_site {
