@@ -87,8 +87,24 @@ div.container {
 
 .fontSizeLarge {
     font-size: 30px;
+    color : white;
+    stroke-width: 5px;
+    
 }
 
 .fontSizeMed {
     font-size: 20px;
+    border-color: white;
+    color : white;
+}
+
+.James-Naeem_site {
+    font-size: 15px;
+    transition-duration: 0.4s;
+    border-radius: 10%;
+}
+
+.James-Naeem_site:hover {
+    font-size: 40px;
+    background-color: blue;
 }
