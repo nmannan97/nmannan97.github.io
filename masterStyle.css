@@ -1,5 +1,5 @@
 img {
-    border-radius: 8px;
+    border-radius: 5%;
     margin-left: auto;
     margin-right: auto;
     object-fit: scale-down;
@@ -15,12 +15,12 @@ p.font1 {
 div.leftColumn {
     margin: 0 auto;
     text-align: left;
-    width: 500px;
+    width: 10vmin;
 }
 
 div.rightColumn {
     text-align: right;
-    width: 500px;
+    width: 10vmin;
 }
 
 div.polaroid {
@@ -42,10 +42,7 @@ div.polaroid2 {
 }
 
 div.container {
-    border-radius: 8px;
-    text-align: center;
     padding: 10vmin 10vmin;
-    object-position: center;
 }
 
 /* class tags*/
@@ -83,7 +80,7 @@ div.container {
   }
   
 .column {
-    object-position: center;
+    width: 20vmin;
     padding: 5px;
 }
 
