@@ -64,6 +64,7 @@ div.container {
 }
 
 .dish{
+    object-position: center;
     transition-duration: 0.4s;
     background: url(RadarDish/dish.jpg) no-repeat;
     background-size: 180px 320px;
@@ -71,6 +72,7 @@ div.container {
 }
 
 .dish:hover{
+    object-position: center;
     background: url(RadarDish/Radar.gif) no-repeat;
     background-size: 180px 320px;
 
@@ -81,7 +83,7 @@ div.container {
   }
   
 .column {
-    flex: 10%;
+    object-position: center;
     padding: 5px;
 }
 
