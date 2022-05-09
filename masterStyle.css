@@ -2,7 +2,7 @@ img {
     border-radius: 8px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    object-fit: scale-down;
 }
 
 /*P tags */
@@ -49,7 +49,6 @@ div.container {
 
 .robotLeg{
     transition-duration: 0.4s;
-
     background: url(RoboticLeg/RobotLeg.png) no-repeat;
     background-size: 180px 320px;
 
@@ -63,7 +62,6 @@ div.container {
 
 .dish{
     transition-duration: 0.4s;
-
     background: url(RadarDish/dish.jpg) no-repeat;
     background-size: 180px 320px;
 
