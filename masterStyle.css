@@ -13,7 +13,7 @@ p.font1 {
 
 /*Div tags*/
 div.leftColumn {
-    
+    margin: 0 auto;
     text-align: left;
     width: 500px;
 }
@@ -24,15 +24,16 @@ div.rightColumn {
 }
 
 div.polaroid {
+    margin: 25px auto;
     object-position: center;
     border-radius: 8px;
     width: 200px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
 }
 
 div.polaroid2 {
+    margin: 25px auto;
     border-radius: 8px;
     width: 480px;
     background-color: white;
