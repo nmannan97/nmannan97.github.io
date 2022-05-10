@@ -145,3 +145,11 @@ div.polaroid {
     font-size: 40px;
     background-color: blue;
 }
+
+/*IDs */
+#Header1{
+    font-size: 100px;
+}
+#Header2{
+    font-size: 60px;
+}
