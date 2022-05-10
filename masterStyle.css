@@ -136,13 +136,13 @@ div.polaroid {
 }
 
 .James-Naeem_site {
-    font-size: 15px;
+    font-size: 40px;
     transition-duration: 0.4s;
     border-radius: 10%;
 }
 
 .James-Naeem_site:hover {
-    font-size: 40px;
+    font-size: 60px;
     background-color: blue;
 }
 
