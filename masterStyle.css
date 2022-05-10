@@ -9,12 +9,23 @@ h1{
     object-position: center;
 }
 
+html {
+    position: absolute;
+    padding: 50px;
+}
+body  {
+    margin: 10px auto;
+    padding: 10px;
+}
 /*P tags */
 p.font1 {
     font-style: Apple Chancery, cursive;
     padding: 5px auto;
 }
 
+p {
+    padding: 10px auto;
+}
 /*Div tags*/
 
 div.leftColumn {
@@ -29,69 +40,63 @@ div.rightColumn {
 }
 
 div.polaroid {
-    object-position: center;
+    object-position: absolute;
     border-radius: 8px;
-    min-width: 200px;
+
     width: fit-content;
-    min-height: 400px;
+    
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-div.polaroid2 {
-    margin: auto auto;
-    border-radius: 8px;
-    width: 480px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 10px;
-}
-
-div.container {
-    padding: 10vmin 10vmin;
+    
+    margin: 0 auto; 
+    padding: 50px ;
 }
 
 /* class tags*/
+.boardGameImg{
+    width: 99%;
+    height: 99%;
+}
 
 .robotLeg{
-    width: 80%;
-    height: 80%;
+    width: 20em;
+    height: 40em;
     transition-duration: 0.4s;
     background: url(RoboticLeg/RobotLeg.png) no-repeat;
-    background-size: 20% 80%;
+    background-size: 20em 40em;
     justify-items: center;
 
 }
 
 .robotLeg:hover{
-    width: 80%;
-    height: 80%;
+    width: 20em;
+    height: 40em;
     background: url(RoboticLeg/RobotLeg.gif) no-repeat;
-    background-size: 20% 80%;
+    background-size: 20em 40em;
     justify-items: center;
 
 }
 .dishPic{
-    width: 80%;
-    height: 80%; 
+    display: block;
+    padding: 10px auto;
+    width: 20em;
+    height: 20em;
 }
 
 .dish{
-    width: 80%;
-    height: 80%;
-    object-position: center;
+    width: 20em;
+    height: 40em;
     transition-duration: 0.4s;
     background: url(RadarDish/dish.jpg) no-repeat;
-    background-size: 20% 80%;
+    background-size: 20em 40em;
 
 }
 
 .dish:hover{
-    width: 80%;
-    height: 80%;
-    object-position: center;
+    width: 20em;
+    height: 40em;
     background: url(RadarDish/Radar.gif) no-repeat;
-    background-size: 20% 80%;
+    background-size: 20em 40em;
 
 }
 
@@ -100,14 +105,15 @@ div.container {
 }
   
 .column {
+    padding: 10px;
     margin: 100px auto;
-    width: 20vmin;
-    height: 40vmin;
+    width: fit-content;
+    height: fit-content;
 }
 
 
 .fontSizeLarge {
-    font-size: 30px;
+    font-size: 2em;
     color : white;
     stroke-width: 5px;
     text-shadow: black 0px 0px 2px; /* color offset-x offset-y blur-radius */
@@ -115,12 +121,13 @@ div.container {
 }
 
 .fontSizeMed {
-    font-size: 15px;
+    font-size: 1em;
     border-color: black;
     color : white;
     text-shadow: black 0px 0px 2px; /* color offset-x offset-y blur-radius */
     stroke-width: 5px;
     padding: 25px 25px auto auto;
+    margin: 25px auto; 
 
 }
 
