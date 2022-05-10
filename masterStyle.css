@@ -48,7 +48,7 @@ div.polaroid {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
     margin: 0 auto; 
-    padding: 50px ;
+    padding: 50px 50px;
 }
 
 /* class tags*/
@@ -117,7 +117,7 @@ div.polaroid {
 
 
 .fontSizeLarge {
-    font-size: 2em;
+    font-size: 75px;
     color : white;
     stroke-width: 5px;
     text-shadow: black 0px 0px 2px; /* color offset-x offset-y blur-radius */
@@ -125,7 +125,7 @@ div.polaroid {
 }
 
 .fontSizeMed {
-    font-size: 1em;
+    font-size: 50px;
     border-color: black;
     color : white;
     text-shadow: black 0px 0px 2px; /* color offset-x offset-y blur-radius */
